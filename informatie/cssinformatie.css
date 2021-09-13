@@ -1,0 +1,23 @@
+.linksinformatie {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
+.linksinformatie a {
+    display: block;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #1f799c;
+    color: #1f799c;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.linksinformatie a:hover {
+    color: white;
+    background-color: #1f799c;
+}
