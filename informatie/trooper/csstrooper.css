@@ -1,0 +1,17 @@
+.titeltrooper {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    position: relative ;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.youtubevid {
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
