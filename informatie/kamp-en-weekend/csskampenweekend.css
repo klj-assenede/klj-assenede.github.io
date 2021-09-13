@@ -1,0 +1,48 @@
+.navigatiebalk {
+    z-index: 100;
+    position: relative;
+}
+
+#fotoPreview {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+#fotoPreview img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90vh;
+}
+
+#fotolijst {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1000px;
+}
+
+#fotolijst img {
+    margin: 5px;
+    width: calc((1000px / 3) - 10px);
+    cursor: pointer;
+}
+
+.text-kampen {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1000px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
