@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(173deg, rgba(255,255,255,1) 9%, rgba(127,199,208,0.9136029411764706) 69%, rgba(108,184,213,1) 94%) fixed;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navigatiebalk {
+    background-color: #6cb8d5;
+    height: 57px;
+}
+
+.navigatiecontent {
+    height: inherit;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.logoKLJ {
+    height: 50px;
+    padding: 5px;
+}
+
+.links {
+    display: inline-block;
+    height: inherit;
+    float: right;
+}
+
+#activepagina {
+    color: red;
+    box-shadow: inset 0 -3px 0  #ff0000;
+}
+
+
+.links a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: white;
+    box-shadow: inset 0 -3px 0  #ffffff;
+    transition: box-shadow 0.5s, color 0.5s;
+}
+
+.links a:hover {
+    box-shadow: inset 0 -30px 0  #ffffff;
+    color: #6cb8d5;
+}
+
+.hoofdbladtitel {
+    color: #6cb8d5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+.groepsfoto {
+    width: 100%;
+    max-width: 900px;
+    -webkit-box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.59); 
+    box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.59);
+}
